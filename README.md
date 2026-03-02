@@ -33,31 +33,31 @@ PINS USED:
 - LED GREEN (pin A0)
 - BUZZER (pin A1)
 
-ARDUINO                        EXTERNAL COMPONENTS
-=======                        ===================
+- ARDUINO                        EXTERNAL COMPONENTS
+- =======                        ===================
 
-5V  ──┬───────────────────────┬── VCC (both sensors)
-       │                       │
-       ├───────────────────────┼── Buzzer positive (if active)
-       │
-GND ──┼──┬────────────────────┼── GND (both sensors)
-       │  │                    │
-       │  ├────────────────────┼── Buzzer negative
-       │  │                    │
-       │  ├────[220Ω]──────────┼── Red LED Front (cathode-)
-       │  │                    │
-       │  ├────[220Ω]──────────┼── Red LED Rear (cathode-)
-       │  │                    │
-       │  └────[220Ω]──────────┼── Green LED (cathode-)
-       │
-Pin 4  ────────────────────────┼── Front Sensor TRIG
-Pin 2  ────────────────────────┼── Front Sensor ECHO
-Pin 9  ────────────────────────┼── Rear Sensor TRIG
-Pin 10 ────────────────────────┼── Rear Sensor ECHO
-Pin 11 ────────────────────────┼── Red LED Front (anode+)
-Pin A2 ────────────────────────┼── Red LED Rear (anode+)
-Pin A0 ────────────────────────┼── Green LED (anode+)
-Pin A1 ────────────────────────┼── Buzzer control
+- 5V  ──┬───────────────────────┬── VCC (both sensors)
+-       │                       │
+-       ├───────────────────────┼── Buzzer positive (if active)
+-       │
+- GND ──┼──┬────────────────────┼── GND (both sensors)
+-       │  │                    │
+-       │  ├────────────────────┼── Buzzer negative
+-       │  │                    │
+-       │  ├────[220Ω]──────────┼── Red LED Front (cathode-)
+-       │  │                    │
+-       │  ├────[220Ω]──────────┼── Red LED Rear (cathode-)
+-       │  │                    │
+-       │  └────[220Ω]──────────┼── Green LED (cathode-)
+-       │
+- Pin 4  ────────────────────────┼── Front Sensor TRIG
+- Pin 2  ────────────────────────┼── Front Sensor ECHO
+- Pin 9  ────────────────────────┼── Rear Sensor TRIG
+- Pin 10 ────────────────────────┼── Rear Sensor ECHO
+- Pin 11 ────────────────────────┼── Red LED Front (anode+)
+- Pin A2 ────────────────────────┼── Red LED Rear (anode+)
+- Pin A0 ────────────────────────┼── Green LED (anode+)
+- Pin A1 ────────────────────────┼── Buzzer control
 
 FRONT SENSOR HC-SR04:
 - VCC pin → Arduino 5V
