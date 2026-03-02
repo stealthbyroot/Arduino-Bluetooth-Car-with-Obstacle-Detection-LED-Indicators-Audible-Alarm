@@ -36,20 +36,20 @@ PINS USED:
 - ARDUINO                        EXTERNAL COMPONENTS
 - =======                        ===================
 
-- 5V  ──┬───────────────────────┬── VCC (both sensors)
--       │                       │
--       ├───────────────────────┼── Buzzer positive (if active)
--       │
-- GND ──┼──┬────────────────────┼── GND (both sensors)
--       │  │                    │
--       │  ├────────────────────┼── Buzzer negative
--       │  │                    │
--       │  ├────[220Ω]──────────┼── Red LED Front (cathode-)
--       │  │                    │
--       │  ├────[220Ω]──────────┼── Red LED Rear (cathode-)
--       │  │                    │
--       │  └────[220Ω]──────────┼── Green LED (cathode-)
--       │
+- / 5V  ──┬───────────────────────┬── VCC (both sensors)
+- /       │                       │
+- /       ├───────────────────────┼── Buzzer positive (if active)
+- /       │
+- / GND ──┼──┬────────────────────┼── GND (both sensors)
+- /       │  │                    │
+- /       │  ├────────────────────┼── Buzzer negative
+- /       │  │                    │
+- /       │  ├────[220Ω]──────────┼── Red LED Front (cathode-)
+- /       │  │                    │
+- /       │  ├────[220Ω]──────────┼── Red LED Rear (cathode-)
+- /       │  │                    │
+- /       │  └────[220Ω]──────────┼── Green LED (cathode-)
+- /       │
 - Pin 4  ────────────────────────┼── Front Sensor TRIG
 - Pin 2  ────────────────────────┼── Front Sensor ECHO
 - Pin 9  ────────────────────────┼── Rear Sensor TRIG
