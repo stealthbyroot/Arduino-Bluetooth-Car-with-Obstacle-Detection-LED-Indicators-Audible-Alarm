@@ -4,20 +4,21 @@
 - Active Buzzer
 - L298N - motor driver - jumpers removed
 - 
-IN1 (pin 7)
-IN2 (pin 8)
-IN3 (pin 12)
-IN4 (pin 13)
-ENA (pin 5)
-ENB (pin 6)
-Front TRIG (pin 4)
-Front ECHO (pin 2)
-Rear TRIG (pin 9)
-Rear ECHO (pin 10)
-LED FRONT (pin 11)
-LED REAR (pin A2)
-LED GREEN (pin A0)
-BUZZER (pin A1)
+PINS USED:
+- IN1 (pin 7)
+- IN2 (pin 8)
+- IN3 (pin 12)
+- IN4 (pin 13)
+- ENA (pin 5)
+- ENB (pin 6)
+- Front TRIG (pin 4)
+- Front ECHO (pin 2)
+- Rear TRIG (pin 9)
+- Rear ECHO (pin 10)
+- LED FRONT (pin 11)
+- LED REAR (pin A2)
+- LED GREEN (pin A0)
+- BUZZER (pin A1)
 
 FRONT SENSOR:
 VCC pin → Arduino 5V
