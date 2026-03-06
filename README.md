@@ -33,11 +33,7 @@ PINS USED:
 - LED GREEN (pin A0)
 - BUZZER (pin A1)
 
-- ARDUINO                        EXTERNAL COMPONENTS
-- =======                        ===================
-
-<img width="394" height="408" alt="image" src="https://github.com/user-attachments/assets/31fbd2cc-3e1f-4ca4-95bd-a9f300144b70" />
-
+<img width="499" height="440" alt="image" src="https://github.com/user-attachments/assets/84ce4d17-adc2-4337-ae19-077f64cf3f17" />
 
 FRONT SENSOR HC-SR04:
 - VCC pin → Arduino 5V
