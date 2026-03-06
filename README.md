@@ -4,17 +4,21 @@
 - IMPORTANT  -  !!! Always connect grounds together - This is the only critical connection between the two power systems.  !!!
 - Recommended App - 
 
-- Arduino Uno R3
+Components used:
+- 1x Arduino Uno R3
 - 1x Active Buzzer
 - 1x L298N - motor driver - jumpers removed
 - 2x HC-SR04 - ultrasonic sensor
 - 2x Red LED
 - 1x Green LED
 - 4x 18650 battery
-- HC-06 - Bluetooth modules
+- 1x HC-06 - Bluetooth modules
 - 3x 220Ω resistors
-- Small breadboard
+- 1x Small universal PCB board
 - 4x TT Motors (3-6V)
+- 2x 2S 18650 battery holders
+- 2x small ON/OFF switch
+- wires, shrink tubes, Arduino car assembly, 3mm screws/nuts
 
 PINS USED:
 - IN1 (pin 7)
