@@ -62,10 +62,10 @@ HC-06:
 - GND → Arduino GND
 
 L298N Jumper Settings
-- Jumper	                            Correct Setting for Your Setup
-- ENA	                                REMOVED (you have wire to Arduino pin 5)
-- ENB          	                      REMOVED (you have wire to Arduino pin 6)
-- 5V Enable (near power terminals)	  ON (kept in place) - this powers L298N internal logic
+- Jumper - Correct Setting for Your Setup
+- ENA - REMOVED (you have wire to Arduino pin 5)
+- ENB - REMOVED (you have wire to Arduino pin 6)
+- 5V Enable (near power terminals) - ON (kept in place) - this powers L298N internal logic
 
 - The ENA and ENB pins on the L298N control whether the motor channels are enabled. When you remove the jumpers:
 - The pins are no longer connected to 5V internally
