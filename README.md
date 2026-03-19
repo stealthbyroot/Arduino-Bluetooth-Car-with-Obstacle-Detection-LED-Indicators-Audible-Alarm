@@ -67,7 +67,7 @@ L298N Jumper Settings
 - ENB - REMOVED (you have wire to Arduino pin 6)
 - 5V Enable (near power terminals) - ON (kept in place) - this powers L298N internal logic
 
-- The ENA and ENB pins on the L298N control whether the motor channels are enabled. When you remove the jumpers:
+The ENA and ENB pins on the L298N control whether the motor channels are enabled. When you remove the jumpers:
 - The pins are no longer connected to 5V internally
 - You connect these pins to Arduino PWM pins (like pins 5 and 6 in our code)
 - You can then use analogWrite() to set any speed from 0-255
